@@ -1,0 +1,358 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main-banner {
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.show {
+    color: red !important;
+}
+
+.nav-item {
+    font-size: 12.8px;
+    font-weight: 600;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.nav-link{
+    padding-right: 3%;
+}
+
+.navbar-brand {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.content {
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    padding-bottom: 16%;
+}
+
+.h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: small;
+    margin-left: 1.5%;
+}
+
+.h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-right: 15%;
+    margin-left: 1%;
+}
+
+
+.shop-btn {
+    background: #fff;
+    color: #ff4c4c;
+    border: none;
+    border-radius: 0;
+    letter-spacing: 1px;
+    padding: 11px 31px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.shop-btn:hover {
+    background-color: rgb(241, 239, 239);
+    color: #ff4c4c;
+
+}
+
+.read-btn {
+    background: #10adfb;
+    border: #10adfb;
+    color: #e9e7e7;
+    border: 1px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    padding: 11px 35px 11px 35px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.read-btn:hover {
+    background-color: #10adfb;
+    color: #e9e7e7;
+}
+
+.card {
+    padding-top: 5%;
+    text-align: center;
+    border-radius: 0px;
+    border-color: #f8f9fa;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    background: #f8f9fa;
+}
+
+.card-body {
+    padding-bottom: 10%;
+}
+
+.fa-truck,
+.fa-bullhorn,
+.fa-gift,
+.fa-dollar-sign{
+    font-size: 30px;
+}
+
+.card-title{
+    font-size: 14.4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #1e272e;
+    letter-spacing: 1px;
+    padding-top: 5%;
+}
+
+.card-subtitle{
+    font-size: 14.4px;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+.card-img {
+    padding-top: 5%;
+    text-align: center;
+    border-radius: 0px;
+    margin-left: 7%;
+    margin-bottom: 7%;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: solid rgb(227, 227, 227);
+    border-width: 1px;
+}
+
+.items {
+    text-align: center;
+    font-size: 36.8px;
+    font-weight: 600;
+    color: #292a2b;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+}
+
+.products {
+    background-size: cover;
+    margin-left: 5%;
+}
+
+.section-3 {
+    background-color: rgb(248, 247, 247);
+    padding-bottom: 3%;
+    padding-top: 15px;
+}
+
+.se3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 4%;
+}
+
+.fa-quote-left{
+    font-size: 30.656px;
+    color: #505c65;
+}
+
+.se4 {
+    color: #ff4c4c;
+}
+
+.fa-quote-right{
+    font-size: 30.656px;
+    color: #505c65;
+}
+
+.se5 {
+    text-align: center;
+    color: grey;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    line-height: 28.8px;
+    margin-bottom: 16px;
+    font-size: 14.4px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.popular-card {
+    border: solid rgb(227, 227, 227);
+    border-width: 1px;
+    margin-left: 12%;
+    margin-right: 3%;
+    padding: 2% 2% 2% 2%;
+}
+
+.grid {
+    background-color: white;
+}
+
+.popular-card1 {
+    border: solid rgb(227, 227, 227);
+    border-width: 1px;
+    margin-left: 1%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    padding: 2% 2% 2% 2%;
+
+}
+
+.grid-1 {
+    background-color: white;
+}
+
+.highlight {
+    text-align: center;
+    font-size: larger;
+    background-color: #1e272e;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
+
+.fa-connectdevelop,
+.fa-empire,
+.fa-ioxhost,
+.fa-first-order,
+.fa-joomla,
+.fa-dropbox {
+    font-size: xx-large;
+    padding-right: 12%;
+    text-align: center;
+}
+
+
+.brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.type {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #8c9398;
+    font-size: 0.9em;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    padding-right: 20%;
+}
+
+.type-2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10%;
+    margin-top: 4%;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    color: #5e5e61;
+    font-weight: bold;
+}
+
+.fa-facebook {
+    font-size: xx-large;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.fa-square-twitter,
+.fa-square-dribbble,
+.fa-google-plus {
+    font-size: xx-large;
+}
+
+.left1 {
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    color: #5e5e61;
+    font-weight: bold;
+    margin-left: 3%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.rightside {
+    border-left: 1px solid rgb(227, 227, 227);
+    height: 650px;
+}
+
+.typeright {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #8c9398;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.search-box{
+    margin-left: 3%;
+    padding-right: 35%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.search-btn{
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background: #1e272e;
+}
+
+.fa-paper-plane{
+    background: #1e272e;
+}
+
+.footer{
+    margin-left: 10%;
+}
+
+/* .footerh{
+    margin-top: 15%;
+    text-align: center;
+} */
+
+.heading-last{
+    margin-top: 20%;
+    font-size: small;
+}
+
+
